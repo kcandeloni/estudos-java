@@ -1,4 +1,4 @@
-public class ListExercicios {
+public class ListExercicios1 {
 
     public void oQueEhEsseNumero(int n){
 
