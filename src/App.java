@@ -9,7 +9,6 @@ public class App {
         //praticar.multiplicaAi(5);
         //praticar.piramideDeNumeros(5);
         //praticar.duplicadosNao();
-        praticar.holidayzer("14-12-2024");
         praticar.holidayzer("12-02-2024");
     }
 }

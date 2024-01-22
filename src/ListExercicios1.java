@@ -75,7 +75,7 @@ public class ListExercicios1 {
         holidays.setHoliday(new Holiday("01-05-2024", "Dia do Trabalho"));
 
         System.err.println(holidays.getHoliday(date));
-        holidays.printHolidays();
+        //holidays.printHolidays();
     }
 
 }

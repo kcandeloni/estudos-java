@@ -1,17 +1,20 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem Vindo a Lista de Exercícios de Java.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+Neste projeto, você pode conferir os exercícios listados abaixo, 
+descomentado a linha de chamada da função e alterando o seu parametro para testar:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `praticar.oQueEhEsseNumero(8);`
+- `praticar.fibonacci(20);`
+- `praticar.multiplicaAi(5);`
+- `praticar.piramideDeNumeros(5);`
+- `praticar.duplicadosNao();`
+- `praticar.holidayzer("12-02-2024");`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Você deve alterar estas linhas no arquivo: `.estudo-java/src/App.java`
 
 ## Dependency Management
 
