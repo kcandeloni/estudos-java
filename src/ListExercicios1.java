@@ -66,28 +66,16 @@ public class ListExercicios1 {
         }
     }
     public void holidayzer(String date){
-        List<Holiday> holidays = new ArrayList<>();
-        holidays.add(new Holiday("01-01-2024", "Confraternização Mundial"));
-        holidays.add(new Holiday("12-02-2024", "Carnaval"));
-        holidays.add(new Holiday("13-02-2024", "Carnaval"));
-        holidays.add(new Holiday("29-03-2024", "Sexta-feira Santa"));
-        holidays.add(new Holiday("21-04-2024", "Tiradentes"));
-        holidays.add(new Holiday("01-05-2024", "Dia do Trabalho"));
+        Holidays holidays = new Holidays();
+        holidays.setHoliday(new Holiday("01-01-2024", "Confraternização Mundial"));
+        holidays.setHoliday(new Holiday("12-02-2024", "Carnaval"));
+        holidays.setHoliday(new Holiday("13-02-2024", "Carnaval"));
+        holidays.setHoliday(new Holiday("29-03-2024", "Sexta-feira Santa"));
+        holidays.setHoliday(new Holiday("21-04-2024", "Tiradentes"));
+        holidays.setHoliday(new Holiday("01-05-2024", "Dia do Trabalho"));
 
-        boolean isHoliday = false;
-        String desciption = "";
-        for(Holiday holiday : holidays){
-            if(holiday.getDate().equals(date)){
-                desciption = holiday.getDesciption();
-                isHoliday = true;
-                break;
-            }
-        }
-        if(isHoliday){
-            System.err.println("Dia "+date+" é "+desciption+"! :)");
-        }else{
-            System.err.println("Dia "+ date + " não é feriado :(");
-        }
+        System.err.println(holidays.getHoliday(date));
+        holidays.printHolidays();
     }
 
 }

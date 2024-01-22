@@ -19,6 +19,7 @@ public class Holidays {
         return "Dia "+ date + " não é feriado :(";
     }
     void printHolidays(){
+        System.err.println("Lista de Feriados:");
         for(Holiday holiday : this.holidays){
             System.err.println(holiday.getDate() +" => "+holiday.getDesciption());
         }
